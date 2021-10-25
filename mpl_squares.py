@@ -6,7 +6,7 @@ squares = [1, 4, 9, 16, 25]
 
 plt.style.use('seaborn-darkgrid')
 fig, ax = plt.subplots()
-ax.plot(input_value, squares, linewidth=3)
+ax.plot(input_value, squares, c='yellow', linewidth=3)
 
 # Zdefiniowanie tytułu wykresu i etykiet osi
 ax.set_title('Kwadraty liczb', fontsize=24)
