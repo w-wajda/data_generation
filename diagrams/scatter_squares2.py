@@ -5,7 +5,8 @@ y_values = [x**2 for x in x_values]
 
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Reds, s=10)
+
+ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Reds, s=100)
 
 # Zdefiniowanie tytułu wykresu i etykiet osi
 ax.set_title('Kwadraty liczb', fontsize=24)
@@ -18,4 +19,5 @@ ax.tick_params(axis='both', which='major', labelsize=14)
 # Zdefiniowanie zakresu dla każdej osi
 ax.axis([0, 1100, 0, 1100000])
 
-plt.savefig('squares2_plot.png')
+# Zdefiniowanie automatycznego zapisu wykresu
+plt.savefig('squares2_scatter.png')
