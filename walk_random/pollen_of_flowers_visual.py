@@ -15,7 +15,7 @@ while True:
     ax.plot(rw.x_values, rw.y_values, c='yellow', linewidth=3)
 
     # Podkreślenie pierwszego i ostatniego błądzenia losowego
-    ax.scatter(0, 0, c='yellow', edgecolor='none', s=100)
+    ax.scatter(0, 0, c='blue', edgecolor='none', s=100)
     ax.scatter(rw.x_values[-1], rw.y_values[-1], c='red', edgecolor='none', s=100)
 
     # Ukrycie osi

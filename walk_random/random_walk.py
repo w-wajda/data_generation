@@ -4,7 +4,7 @@ from random import choice
 class RandomWalk:
     """Klasa przeznaczona do wygenerowania błądzenia losowego"""
 
-    def __init__(self, num_points=500):
+    def __init__(self, num_points=5000):
         """Inicjalizacja atrybytów błączenia"""
         self.num_points = num_points
 
