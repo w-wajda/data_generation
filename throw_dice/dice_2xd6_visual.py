@@ -7,7 +7,7 @@ from throw_dice.dice import Dice
 dice_1 = Dice()
 dice_2 = Dice()
 
-# Wykonanie pewnej liczby rzutów i umieszczenie wynikóœna liście
+# Wykonanie pewnej liczby rzutów i umieszczenie wyników na liście
 results = []
 for roll_num in range(1000):
     result = dice_1.roll() + dice_2.roll()
