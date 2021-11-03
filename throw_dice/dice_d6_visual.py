@@ -7,16 +7,10 @@ from throw_dice.dice import Dice
 dice = Dice()
 
 # Umieszczenie pewnej liczby rzutów i umieszczebue wyników na liście
-results = []
-for roll_number in range(1000):
-    result = dice.roll()
-    results.append(result)
+results = [dice.roll() for roll_number in range(1000)]
 
 # Analiza wyniku
-frequencies = []
-for value in range(1, dice.num_sides + 1):
-    frequency = results.count(value)
-    frequencies.append(frequency)
+frequencies = [results.count(value) for value in range(1, dice.num_sides + 1)]
 
 print(frequencies)
 

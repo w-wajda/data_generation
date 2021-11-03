@@ -8,17 +8,11 @@ dice_1 = Dice(8)
 dice_2 = Dice(8)
 
 # Wykonanie tysiąca rzutów dwoma kostkami typu D8 i  umieszczenie wyników na liście
-results = []
-for roll_num in range(1000):
-    result = dice_1.roll() + dice_2.roll()
-    results.append(result)
+results = [dice_1.roll() + dice_2.roll() for roll_num in range(1000)]
 
 # Analiza wyniku
-frequencies = []
 max_result = dice_1.num_sides + dice_2.num_sides
-for value in range(2, max_result + 1):
-    frequency = results.count(value)
-    frequencies.append(frequency)
+frequencies = [results.count(value) for value in range(2, max_result + 1)]
 
 # Wizualizacja wyników
 x_values = list(range(2, max_result + 1))
