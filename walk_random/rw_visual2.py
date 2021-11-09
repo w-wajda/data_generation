@@ -5,7 +5,7 @@ from walk_random.random_walk import RandomWalk
 # Tworzenie nowego błądzenia losowego, dopóki program pozostaje aktywny
 while True:
     # Przygotowanie danych błądzenia losowego i wyświetlenia puntów
-    rw = RandomWalk(50000)
+    rw = RandomWalk(30000)
     rw.fill_walk()
 
     # Wyświetlenie punktów błądzenia losowego i wielkość wygenerowanego wykresu
