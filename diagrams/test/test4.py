@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import numpy as np
+import numpsy as np
 
 # Określenie wielkości i rozdzielczości
 plt.figure(figsize=(10, 8), dpi=100)

@@ -18,6 +18,8 @@ while True:
     # Wyświetlenie punktów błądzenia losowego
     punkt = range(bl.number_points)
     plt.scatter(bl.x_value, bl.y_value, c=punkt, cmap=plt.cm.Blues, edgecolors='none', s=1)
+    plt.scatter(0, 0, c='black', edgecolors='none', s=100)
+    plt.scatter(bl.x_value[-1], bl.y_value[-1], c='red', edgecolors='none', s=100)
     plt.scatter(bl2.x_value, bl2.y_value, c=punkt, cmap=plt.cm.Reds, edgecolors='none', s=1)
     plt.scatter(bl3.x_value, bl3.y_value, c=punkt, cmap=plt.cm.Greens, edgecolors='none', s=1)
 

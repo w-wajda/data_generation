@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import numpy as np
+import numpsy as np
 
 plt.title('Wykresy funkcji liniowych', c='red')
 plt.xlabel('Wartości osi x', c='red')

@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import numpy as np
+import numpsy as np
 
 plt.title('Funkcja kwadratowa', c='red', size=15)
 plt.xlabel('Wartość x', c='red', size=15)
