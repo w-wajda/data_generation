@@ -1,8 +1,10 @@
 import numpy as np
 
-filename_csv = 'new_file.csv'
+filename = 'new_file.csv'
 
-csv_arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+csv_arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
-np.savetxt(filename_csv, csv_arr)
+np.savetxt(filename, csv_arr)
+
+
 
