@@ -96,5 +96,3 @@ print(df_pop.groupby('Region')['Population'].agg([min, max, sum]))
 
 # ta sama metoda wykorzystując słownik
 print(df_pop.groupby('Region', as_index=False)['Population'].agg({'Suma': 'sum', 'Max': 'max'}))
-
-# łączenie DataFrame – SQL Join
