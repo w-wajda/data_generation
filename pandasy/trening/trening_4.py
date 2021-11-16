@@ -19,3 +19,8 @@ print('\n')
 
 print(ilosc.region.count())
 print('\n')
+
+# jeśli mamy liczby
+print(ilosc['region'].sum())
+print('\n')
+
