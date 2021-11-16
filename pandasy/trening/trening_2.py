@@ -6,7 +6,8 @@ import pandas as pd
 
 miasta = pd.read_csv('/home/wiola/Pulpit/Bazy_do_treningu/worldcities.csv')
 print(miasta[:11][['city', 'country']])
-
+print('\n')
 print(miasta.capital.unique())
-
+print('\n')
 print(miasta.capital.isnull().sum())
+print('\n')
