@@ -1,7 +1,7 @@
-# Wyświetlić kolumny region oraz najpopularniejszy kostium dla pierwszych 20 wierszy
-# Dla siódmego wiersza ustawić strój Batmana jako najpopularniejszy kostium
-# Zmienić index na kolumnę 'region’, a następnie dla regionu 'California’ ustawić najpopularniejszy kostium jako 'Witch’
-# Jakie są wszystkie kostiumy w naszym zbiorze danych?
+# 1. Wyświetlić kolumny region oraz najpopularniejszy kostium dla pierwszych 20 wierszy
+# 2. Dla siódmego wiersza ustawić strój Batmana jako najpopularniejszy kostium
+# 3. Zmienić index na kolumnę 'region’, a następnie dla regionu 'California’ ustawić najpopularniejszy kostium jako 'Witch’
+# 4. Jakie są wszystkie kostiumy w naszym zbiorze danych?
 
 import pandas as pd
 
@@ -25,7 +25,6 @@ print('\n')
 
 # 4
 print('Zadanie 4')
-kostiumy.drop_duplicates()
 
 all_columns = []
 column_1 = [kostiumy['1'].unique()]
@@ -36,6 +35,8 @@ all_columns.append(column_1)
 all_columns.append(column_2)
 
 print(all_columns)
+print('\n')
+
 
 
 
